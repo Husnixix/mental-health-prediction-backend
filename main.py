@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model_path = "C:/Users/HP/Downloads/best_lr_model.pkl"
+model_path = "C:/Users/HP/Models/Mental Health Prediction Model/best_lr_model.pkl"
 
 try:
     if os.path.exists(model_path):
