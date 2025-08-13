@@ -57,3 +57,5 @@
 To complete the full application setup, you'll also need to configure the frontend:
 
 **Frontend Repository:** [mental-health-prediction-frontend](https://github.com/husni-haniffa/mental-health-prediction-frontend)
+
+Please follow the setup instructions in the backend repository to get the complete system running.
