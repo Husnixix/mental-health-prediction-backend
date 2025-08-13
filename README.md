@@ -1,39 +1,59 @@
-# Mental Health Prediction Using Logistic Regression Model - Backend
+# Mental Health Prediction
 
-## Overview
-This is the backend API for the Mental Health Prediction System, handling depression prediction using a Logistic Regression model. Part of a 3rd year final semester project.
+**Mental Health Prediction** is a machine learning project that uses a Logistic Regression model to predict whether a person is experiencing depression based on lifestyle, behavioral, and psychological factors.
 
-## Features
-- Depression prediction API using Logistic Regression model
-- Machine learning model integration
-- FastAPI endpoints for prediction services
+### Backend Setup
 
-## Setup and Installation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/husni-haniffa/mental-health-prediction-backend
+   ```
 
-### Prerequisites
-- Python 3.8 or higher
-- pip (Python package installer)
+2. **Navigate to the project directory**
+   ```bash
+   cd mental-health-prediction-backend
+   ```
 
-### Installation Steps
+3. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   ```
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Husnixix/mental-health-prediction-backend.git
-cd mental-health-prediction-backend
-```
+4. **Activate the virtual environment**
+   - **Windows:**
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source venv/bin/activate
+     ```
 
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
+5. **Configure the model path**
+   
+   Update the model path in your configuration file according to your system:
+   ```
+   C:/Users/HP/Models/Mental Health Prediction Model/best_lr_model.pkl
+   ```
+   
+   **Note:** Either place the model file at the specified path or copy it to a folder within your project directory and update the path accordingly.
 
-3. Update the model path for your computer
+6. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. Run the project:
-```bash
-uvicorn main:app --reload
-```
+7. **Start the development server**
+   ```bash
+   uvicorn main:app --reload
+   ```
 
-## Frontend Integration
-This backend serves the Mental Health Prediction frontend application. Make sure to set up the frontend as well:
-[Mental Health Prediction Frontend Repository](https://github.com/Husnixix/mental-health-prediction-frontend.git)
+8. **Backend server will be available at:**
+   
+   Visit: [http://localhost:8000](http://localhost:8000)
+
+### Frontend Setup
+
+To complete the full application setup, you'll also need to configure the frontend:
+
+**Frontend Repository:** [mental-health-prediction-frontend](https://github.com/husni-haniffa/mental-health-prediction-frontend)
