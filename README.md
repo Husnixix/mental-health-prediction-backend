@@ -31,12 +31,12 @@
 
 5. **Configure the model path**
    
-   Update the model path in your configuration file according to your system:
+   Update the model path in your configuration file according to your system. For example:
    ```
-   C:/Users/HP/Models/Mental Health Prediction Model/best_lr_model.pkl
+   ./best_lr_model.pkl
    ```
    
-   **Note:** Either place the model file at the specified path or copy it to a folder within your project directory and update the path accordingly.
+**Note:** The model file is included in the cloned repository. You can either use this path directly or place the model file in any other folder on your system and update the configuration file accordingly.
 
 6. **Install dependencies**
    ```bash
