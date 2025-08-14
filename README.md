@@ -35,8 +35,7 @@
    ```
    ./best_lr_model.pkl
    ```
-   
-**Note:** The model file is included in the cloned repository. You can either use this path directly or place the model file in any other folder on your system and update the configuration file accordingly.
+   **Note:** The model file is included in the cloned repository. You can either use this path directly or place the model file in any other folder on your system and update the configuration file accordingly.
 
 6. **Install dependencies**
    ```bash
